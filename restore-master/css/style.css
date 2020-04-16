@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,500i,700|Playfair+Display:400,700|Raleway:400,500,600,700&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+html body {
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.6;
+}
+
+body {
+	background-color: #14141f;
+}
+
+.navbar {
+	background-color: #14141f !important;
+	padding: 0;
+}
+
+nav ul {
+	padding-right: 2rem;
+	text-transform: uppercase;
+	font-size: .9rem;
+}
+
+nav li a {
+	color: #f858f8 !important;
+}
+
+nav li :hover {
+	color: #3c78d8 !important;
+}
+
+.navbar-dark .navbar-toggler {
+	border-color: rgba(248, 88, 248, 0.098);
+}
+
+.navbar-dark .navbar-toggler-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(248,88,248, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.img-logo {
+	padding-left: 1rem;
+	max-width: 35%;
+}
+
+h1 {
+	font-family: 'Playfair Display', serif;
+	padding: 2rem 0;
+}
+
+.col-md-6 {
+	padding: 0 2rem;
+}
+
+/*---- Header Section ----*/
+
+.header {
+	background-image: url(../images/header_img.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+p.paragraph-white {
+	color: #fff;
+	font-size: 1.4em;
+	font-weight: 400;
+	padding-bottom: .9rem;
+}
+
+/* .text-center {
+	padding: 1rem 2rem;
+} */
+
+.logo {
+	margin-top: 3rem;
+	width: 100%;
+}
+
+.btn-secondary {
+	background-color: #f858f8;
+	border-color: #f858f8;
+	box-shadow: 2px 2px 5px #14141f;
+}
+
+.btn-secondary:hover {
+	background-color: #3c78d8;
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active,
+.btn-secondary:not(:disabled):not(.disabled):active,
+.show > .btn-secondary.dropdown-toggle {
+	background-color: #f858f8;
+	border-color: #f858f8;
+}
+
+.btn-secondary:active {
+	background-color: #f858f8 !important;
+	border-color: #f858f8 !important;
+}
+
+/*---- About Section ----*/
+
+#about {
+	background-image: url(../images/bg_contact.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 45vh;
+	color: #fff;
+}
+
+.txt-bg {
+	background-color: rgba(20, 20, 31, 0.90);
+	padding: 5rem;
+	margin-bottom: 2rem;
+}
+
+/*---- Download Section ----*/
+
+.btn-download {
+	background-color: #f858f8;
+	border-color: #f858f8;
+	box-shadow: 2px 2px 5px #14141f;
+}
+
+.btn-download:hover {
+	background-color: #3c78d8;
+	border-color: #3c78d8;
+}
+
+.btn-download:active {
+	background-color: #f858f8 !important;
+	border-color: #f858f8 !important;
+}
+
+/*---- Team Section ----*/
+
+#team {
+	margin: 6rem 0;
+	color: #fff;
+}
+
+.card {
+	background-color: rgba(20, 20, 31, 0);
+	border: none;
+}
+
+/*---- Footer Section ----*/
+
+hr {
+	background-color: #f858f8;
+}
+
+.bg-footer {
+	color: #f858f8;
+}
+
+img .footer-img {
+	width: 30%;
+}
+
+.navbar-footer a {
+	color: #f858f8 !important;
+}
+
+.navbar-footer :hover {
+	color: #3c78d8 !important;
+	text-decoration: none;
+}
+
+/*---- Device Section ----*/
+
+@media (max-width: 575.98px) {
+	.navbar-nav .nav-link {
+		padding-right: 0;
+		padding-left: 0;
+		font-size: 1.2rem;
+	}
+
+	.img-logo {
+		padding-left: 1rem;
+		min-width: 75%;
+	}
+	.txt-bg {
+		background-color: rgba(20, 20, 31, 0.90);
+		padding: 2rem;
+		margin-bottom: 2rem;
+	}
+	.navbar-brand {
+		max-width: 77%;
+	}
+}
+
+@media (max-width: 767.98px) {
+	nav ul {
+		padding-right: 1.5rem;
+		text-transform: uppercase;
+		font-size: .7rem;
+	}
+	.txt-bg {
+		background-color: rgba(20, 20, 31, 0.90);
+		padding: 3rem;
+		margin-bottom: 3rem;
+	}
+	.navbar-brand {
+		max-width: 50%;
+	}
+}

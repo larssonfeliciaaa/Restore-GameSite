@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /GameDevRestore/images/LogoSmallV2.png
+Disallow: /GameDevRestore/images/TeamLogo.png
+Disallow: /GameDevRestore/images/TeamLogo.png
+
+Sitemap: /GameDevRestore/Sitemap.xml
